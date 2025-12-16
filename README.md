@@ -7,7 +7,7 @@
 </p>
 
 <p>
-  <strong>Live Demo:</strong> <a href="https://waitly.idee8.agency" target="_blank" rel="noopener noreferrer">waitly.idee8.agency</a>
+  <strong>Live Demo:</strong> <a href="https://waitly.revoks.dev" target="_blank" rel="noopener noreferrer">waitly.revoks.dev</a>
 </p>
 
 ## Deploy to Vercel
@@ -16,7 +16,7 @@
 
 ## Core Features
 
-- **Next.js 15**: Built with the latest features of the leading React framework for performance and developer experience.
+- **Next.js 16**: Built with the latest features of the leading React framework for performance and developer experience.
 - **Notion as CMS**: Seamlessly manage your waitlist entries directly within a Notion database.
 - **Upstash Redis**: Implement robust rate limiting for signups using serverless Redis.
 - **Resend Integration**: Send transactional emails (e.g., confirmation emails) through Resend using your custom domain.
