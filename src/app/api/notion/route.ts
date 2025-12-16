@@ -77,8 +77,10 @@ export async function POST(request: Request) {
       },
       { status: 200 }
     );
-  } catch (error: any) {
+  } catch (error: unknown) {
+    if (error instanceof Error) {
     console.error("Notion API error:", error.message);
+    
     return NextResponse.json(
       {
         error: "Failed to save to Notion",
@@ -87,5 +89,6 @@ export async function POST(request: Request) {
       },
       { status: 500 }
     );
+    }
   }
 }
