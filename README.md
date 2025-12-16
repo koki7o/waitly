@@ -3,7 +3,7 @@
 ![Waitly](/src/app/opengraph-image.png)
 
 <p>
-  Quickly launch a sleek waitlist page for your next project! This template leverages the power of Next.js 15, uses Notion as a simple CMS, incorporates Upstash Redis for rate limiting, and sends emails via Resend with your custom domain.
+  Quickly launch a sleek waitlist page for your next project! This template leverages the power of Next.js, uses Notion as a simple CMS, incorporates Upstash Redis for rate limiting, and sends emails via Resend with your custom domain.
 </p>
 
 <p>
