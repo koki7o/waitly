@@ -28,8 +28,8 @@ export default function Faq() {
 							What's included in this template?
 						</AccordionTrigger>
 						<AccordionContent className="text-muted-foreground">
-							This template is a comprehensive Next.js 15 starter kit designed
-							to help you build your next project quickly and efficiently. It
+							This template is a comprehensive Next.js starter kit designed to
+							help you build your next project quickly and efficiently. It
 							includes a range of features and components that you can use to
 							get started, including a responsive design, a dark mode toggle,
 							and a form component.

@@ -6,7 +6,7 @@ export const dyamic = "force-dynamic";
 
 export default async function Home() {
   const [waitlistPeople] = await Promise.all([
-    await getNotionDatabaseRowCount(process.env.NOTION_DB!),
+    await getNotionDatabaseRowCount(process.env.NOTION_DB as string),
     // forces the page to be dyamically rendered
     await connection(),
   ]);
